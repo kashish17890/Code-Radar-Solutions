@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    scanf("%d",&a);
-    if(a<0)
-    {printf("Set");}
-    else
-    {printf("Not Set");}
+    int a,b,c;
+    scanf("%d %d",&a,&b);
+    c=(a>>b)&1;
+    printf("%d",c);
     return 0;
 }
