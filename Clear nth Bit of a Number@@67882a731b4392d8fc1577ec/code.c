@@ -6,7 +6,7 @@ int clearNthBit(int a,int b){
 }
 int main() {
     int a,b;
-    printf("Entern the number: ");
+    printf("Enter the number: ");
     scanf("%d",&a0);
 
     printf("Enter the bit position to clear (0-based): ");
