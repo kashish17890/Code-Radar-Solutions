@@ -2,10 +2,11 @@
 #include<math.h>
 int main()
 {
-    int a,b,c;
-    scanf("%a%b",&a,&b);
-    c=sqrt(b);
-    if(a==c){printf("Yes");}
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a== sqrt(b)){
+        printf("Yes");
+    }
     else{printf("No");}
     return 0;
 }
