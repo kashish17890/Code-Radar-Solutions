@@ -4,7 +4,7 @@ int main()
 {
     int a,b;
     scanf("%d%d",&a,&b);
-    if(a== sqrt(b)){
+    if(b<=0 && a== (int)sqrt(b)){
         printf("Yes");
     }
     else{printf("No");}
