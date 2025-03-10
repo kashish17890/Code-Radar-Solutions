@@ -15,7 +15,7 @@ int main()
         {printf("%d",a*b);}
         break;
         case '/':
-        if(c!=0){printf("%d",a/b);}
+        if(c!=0){printf("%d",(float)a/b);}
         else{printf("Error");} 
         break;
         default:
